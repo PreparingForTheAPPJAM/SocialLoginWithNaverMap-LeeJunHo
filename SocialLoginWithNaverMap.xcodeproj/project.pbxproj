@@ -75,6 +75,8 @@
 		EBF2D33B2865EDA800468551 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF2D33A2865EDA800468551 /* Login.storyboard */; };
 		EBF2D33D2865EDB500468551 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D33C2865EDB500468551 /* LoginVC.swift */; };
 		EBF2D3402865EDF700468551 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D33F2865EDF700468551 /* BaseVC.swift */; };
+		EBF2D3422865F3B400468551 /* MainMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF2D3412865F3B400468551 /* MainMap.storyboard */; };
+		EBF2D3442865F3BA00468551 /* MainMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D3432865F3BA00468551 /* MainMapVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -150,6 +152,8 @@
 		EBF2D33A2865EDA800468551 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		EBF2D33C2865EDB500468551 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		EBF2D33F2865EDF700468551 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		EBF2D3412865F3B400468551 /* MainMap.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainMap.storyboard; sourceTree = "<group>"; };
+		EBF2D3432865F3BA00468551 /* MainMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -486,6 +490,8 @@
 		EBF2D3392865ED7B00468551 /* MainMap */ = {
 			isa = PBXGroup;
 			children = (
+				EBF2D3412865F3B400468551 /* MainMap.storyboard */,
+				EBF2D3432865F3BA00468551 /* MainMapVC.swift */,
 			);
 			path = MainMap;
 			sourceTree = "<group>";
@@ -558,6 +564,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF2D3422865F3B400468551 /* MainMap.storyboard in Resources */,
 				EBF2D33B2865EDA800468551 /* Login.storyboard in Resources */,
 				EBF2D3152865ED6400468551 /* Assets.xcassets in Resources */,
 				EBF2D3162865ED6400468551 /* LaunchScreen.storyboard in Resources */,
@@ -648,6 +655,7 @@
 				EBF2D2FE2865ED6400468551 /* CoordinatorFactory.swift in Sources */,
 				EBF2D3192865ED6400468551 /* ImageLiterals.swift in Sources */,
 				EBF2D3222865ED6400468551 /* buttonPress.swift in Sources */,
+				EBF2D3442865F3BA00468551 /* MainMapVC.swift in Sources */,
 				EBF2D3252865ED6400468551 /* Logger.swift in Sources */,
 				EBF2D3082865ED6400468551 /* UIView+.swift in Sources */,
 				EBF2D3292865ED6400468551 /* setDefaultFonts.swift in Sources */,
