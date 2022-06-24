@@ -7,23 +7,149 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EBF2D28B2865E35000468551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D28A2865E35000468551 /* AppDelegate.swift */; };
-		EBF2D28D2865E35000468551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D28C2865E35000468551 /* SceneDelegate.swift */; };
-		EBF2D28F2865E35000468551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D28E2865E35000468551 /* ViewController.swift */; };
-		EBF2D2922865E35000468551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF2D2902865E35000468551 /* Main.storyboard */; };
-		EBF2D2942865E35400468551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF2D2932865E35400468551 /* Assets.xcassets */; };
-		EBF2D2972865E35400468551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF2D2952865E35400468551 /* LaunchScreen.storyboard */; };
+		52169AACA3C7C69EDFBB2157 /* Pods_SocialLoginWithNaverMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21F85175667D340201CA254 /* Pods_SocialLoginWithNaverMap.framework */; };
+		EBF2D2F82865ED6400468551 /* CoordinatorFinishOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2A12865ED6300468551 /* CoordinatorFinishOutput.swift */; };
+		EBF2D2F92865ED6400468551 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2A22865ED6300468551 /* Presentable.swift */; };
+		EBF2D2FA2865ED6400468551 /* BaseControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2A32865ED6300468551 /* BaseControllable.swift */; };
+		EBF2D2FB2865ED6400468551 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2A42865ED6300468551 /* Coordinator.swift */; };
+		EBF2D2FC2865ED6400468551 /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2A62865ED6300468551 /* ModuleFactory.swift */; };
+		EBF2D2FD2865ED6400468551 /* controllerFromStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2A72865ED6300468551 /* controllerFromStoryBoard.swift */; };
+		EBF2D2FE2865ED6400468551 /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2A82865ED6300468551 /* CoordinatorFactory.swift */; };
+		EBF2D2FF2865ED6400468551 /* LaunchInstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2AA2865ED6300468551 /* LaunchInstructor.swift */; };
+		EBF2D3002865ED6400468551 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2AB2865ED6300468551 /* BaseCoordinator.swift */; };
+		EBF2D3012865ED6400468551 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2AD2865ED6300468551 /* Router.swift */; };
+		EBF2D3022865ED6400468551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2AE2865ED6300468551 /* AppDelegate.swift */; };
+		EBF2D3032865ED6400468551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2AF2865ED6300468551 /* SceneDelegate.swift */; };
+		EBF2D3042865ED6400468551 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2B22865ED6300468551 /* UserDefaults+.swift */; };
+		EBF2D3052865ED6400468551 /* UIDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2B42865ED6300468551 /* UIDevice+.swift */; };
+		EBF2D3062865ED6400468551 /* UITextView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2B52865ED6300468551 /* UITextView+.swift */; };
+		EBF2D3072865ED6400468551 /* UITabBar+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2B62865ED6300468551 /* UITabBar+.swift */; };
+		EBF2D3082865ED6400468551 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2B72865ED6300468551 /* UIView+.swift */; };
+		EBF2D3092865ED6400468551 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2B82865ED6300468551 /* UIStackView+.swift */; };
+		EBF2D30A2865ED6400468551 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2B92865ED6300468551 /* UIViewController+.swift */; };
+		EBF2D30B2865ED6400468551 /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2BA2865ED6300468551 /* UILabel+.swift */; };
+		EBF2D30C2865ED6400468551 /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2BB2865ED6300468551 /* UIButton+.swift */; };
+		EBF2D30D2865ED6400468551 /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2BC2865ED6300468551 /* UITextField+.swift */; };
+		EBF2D30E2865ED6400468551 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2BD2865ED6300468551 /* UIImage+.swift */; };
+		EBF2D30F2865ED6400468551 /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2BE2865ED6300468551 /* UITableView+.swift */; };
+		EBF2D3102865ED6400468551 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2C02865ED6300468551 /* UIFont+.swift */; };
+		EBF2D3112865ED6400468551 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2C12865ED6300468551 /* UIColor+.swift */; };
+		EBF2D3122865ED6400468551 /* Reactive+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2C22865ED6300468551 /* Reactive+.swift */; };
+		EBF2D3132865ED6400468551 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2C32865ED6300468551 /* String+.swift */; };
+		EBF2D3142865ED6400468551 /* Result+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2C42865ED6300468551 /* Result+.swift */; };
+		EBF2D3152865ED6400468551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF2D2C62865ED6300468551 /* Assets.xcassets */; };
+		EBF2D3162865ED6400468551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF2D2C82865ED6300468551 /* LaunchScreen.storyboard */; };
+		EBF2D3172865ED6400468551 /* BaseNotiList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2CB2865ED6300468551 /* BaseNotiList.swift */; };
+		EBF2D3182865ED6400468551 /* StoryboardLiterals.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2CC2865ED6300468551 /* StoryboardLiterals.swift */; };
+		EBF2D3192865ED6400468551 /* ImageLiterals.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2CD2865ED6300468551 /* ImageLiterals.swift */; };
+		EBF2D31A2865ED6400468551 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2CF2865ED6300468551 /* Storyboarded.swift */; };
+		EBF2D31B2865ED6400468551 /* UICollectionViewRegisterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2D02865ED6300468551 /* UICollectionViewRegisterable.swift */; };
+		EBF2D31C2865ED6400468551 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2D12865ED6300468551 /* ViewModelType.swift */; };
+		EBF2D31D2865ED6400468551 /* UITableViewRegisterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2D22865ED6300468551 /* UITableViewRegisterable.swift */; };
+		EBF2D31E2865ED6400468551 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2D62865ED6400468551 /* SignUp.swift */; };
+		EBF2D31F2865ED6400468551 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2D72865ED6400468551 /* SignIn.swift */; };
+		EBF2D3202865ED6400468551 /* GeneralResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2D82865ED6400468551 /* GeneralResponse.swift */; };
+		EBF2D3212865ED6400468551 /* ShowToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2DB2865ED6400468551 /* ShowToast.swift */; };
+		EBF2D3222865ED6400468551 /* buttonPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2DC2865ED6400468551 /* buttonPress.swift */; };
+		EBF2D3232865ED6400468551 /* applyShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2DD2865ED6400468551 /* applyShadow.swift */; };
+		EBF2D3242865ED6400468551 /* calculatePastTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2DE2865ED6400468551 /* calculatePastTime.swift */; };
+		EBF2D3252865ED6400468551 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2DF2865ED6400468551 /* Logger.swift */; };
+		EBF2D3262865ED6400468551 /* setRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2E02865ED6400468551 /* setRootViewController.swift */; };
+		EBF2D3272865ED6400468551 /* manageObserverAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2E12865ED6400468551 /* manageObserverAction.swift */; };
+		EBF2D3282865ED6400468551 /* JsonCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2E22865ED6400468551 /* JsonCoder.swift */; };
+		EBF2D3292865ED6400468551 /* setDefaultFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2E32865ED6400468551 /* setDefaultFonts.swift */; };
+		EBF2D32A2865ED6400468551 /* getClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2E42865ED6400468551 /* getClassName.swift */; };
+		EBF2D32B2865ED6400468551 /* setImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2E52865ED6400468551 /* setImage.swift */; };
+		EBF2D32C2865ED6400468551 /* calculateTopInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2E62865ED6400468551 /* calculateTopInset.swift */; };
+		EBF2D32D2865ED6400468551 /* makeVibrate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2E72865ED6400468551 /* makeVibrate.swift */; };
+		EBF2D32E2865ED6400468551 /* makeAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2E82865ED6400468551 /* makeAlert.swift */; };
+		EBF2D32F2865ED6400468551 /* Adjusted+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2E92865ED6400468551 /* Adjusted+.swift */; };
+		EBF2D3302865ED6400468551 /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2ED2865ED6400468551 /* AuthRouter.swift */; };
+		EBF2D3312865ED6400468551 /* EventLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2EF2865ED6400468551 /* EventLogger.swift */; };
+		EBF2D3322865ED6400468551 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2F02865ED6400468551 /* BaseService.swift */; };
+		EBF2D3332865ED6400468551 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2F12865ED6400468551 /* BaseRouter.swift */; };
+		EBF2D3342865ED6400468551 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2F22865ED6400468551 /* NetworkResult.swift */; };
+		EBF2D3352865ED6400468551 /* HeaderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2F32865ED6400468551 /* HeaderType.swift */; };
+		EBF2D3362865ED6400468551 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2F52865ED6400468551 /* NetworkConstants.swift */; };
+		EBF2D3372865ED6400468551 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D2F72865ED6400468551 /* AuthService.swift */; };
+		EBF2D33B2865EDA800468551 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF2D33A2865EDA800468551 /* Login.storyboard */; };
+		EBF2D33D2865EDB500468551 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D33C2865EDB500468551 /* LoginVC.swift */; };
+		EBF2D3402865EDF700468551 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D33F2865EDF700468551 /* BaseVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40AEA894EA42973415B59C5F /* Pods-SocialLoginWithNaverMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLoginWithNaverMap.release.xcconfig"; path = "Target Support Files/Pods-SocialLoginWithNaverMap/Pods-SocialLoginWithNaverMap.release.xcconfig"; sourceTree = "<group>"; };
+		6253DE6383AC8238239F4AF2 /* Pods-SocialLoginWithNaverMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLoginWithNaverMap.debug.xcconfig"; path = "Target Support Files/Pods-SocialLoginWithNaverMap/Pods-SocialLoginWithNaverMap.debug.xcconfig"; sourceTree = "<group>"; };
+		B21F85175667D340201CA254 /* Pods_SocialLoginWithNaverMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialLoginWithNaverMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF2D2872865E35000468551 /* SocialLoginWithNaverMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialLoginWithNaverMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBF2D28A2865E35000468551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EBF2D28C2865E35000468551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EBF2D28E2865E35000468551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EBF2D2912865E35000468551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EBF2D2932865E35400468551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EBF2D2962865E35400468551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBF2D2982865E35400468551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF2D2A12865ED6300468551 /* CoordinatorFinishOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorFinishOutput.swift; sourceTree = "<group>"; };
+		EBF2D2A22865ED6300468551 /* Presentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		EBF2D2A32865ED6300468551 /* BaseControllable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseControllable.swift; sourceTree = "<group>"; };
+		EBF2D2A42865ED6300468551 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		EBF2D2A62865ED6300468551 /* ModuleFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
+		EBF2D2A72865ED6300468551 /* controllerFromStoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = controllerFromStoryBoard.swift; sourceTree = "<group>"; };
+		EBF2D2A82865ED6300468551 /* CoordinatorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
+		EBF2D2AA2865ED6300468551 /* LaunchInstructor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchInstructor.swift; sourceTree = "<group>"; };
+		EBF2D2AB2865ED6300468551 /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		EBF2D2AD2865ED6300468551 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		EBF2D2AE2865ED6300468551 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBF2D2AF2865ED6300468551 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBF2D2B22865ED6300468551 /* UserDefaults+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+.swift"; sourceTree = "<group>"; };
+		EBF2D2B42865ED6300468551 /* UIDevice+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+.swift"; sourceTree = "<group>"; };
+		EBF2D2B52865ED6300468551 /* UITextView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+.swift"; sourceTree = "<group>"; };
+		EBF2D2B62865ED6300468551 /* UITabBar+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBar+.swift"; sourceTree = "<group>"; };
+		EBF2D2B72865ED6300468551 /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		EBF2D2B82865ED6300468551 /* UIStackView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
+		EBF2D2B92865ED6300468551 /* UIViewController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		EBF2D2BA2865ED6300468551 /* UILabel+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
+		EBF2D2BB2865ED6300468551 /* UIButton+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
+		EBF2D2BC2865ED6300468551 /* UITextField+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
+		EBF2D2BD2865ED6300468551 /* UIImage+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		EBF2D2BE2865ED6300468551 /* UITableView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+.swift"; sourceTree = "<group>"; };
+		EBF2D2C02865ED6300468551 /* UIFont+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		EBF2D2C12865ED6300468551 /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		EBF2D2C22865ED6300468551 /* Reactive+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reactive+.swift"; sourceTree = "<group>"; };
+		EBF2D2C32865ED6300468551 /* String+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		EBF2D2C42865ED6300468551 /* Result+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Result+.swift"; sourceTree = "<group>"; };
+		EBF2D2C62865ED6300468551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF2D2C92865ED6300468551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBF2D2CB2865ED6300468551 /* BaseNotiList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNotiList.swift; sourceTree = "<group>"; };
+		EBF2D2CC2865ED6300468551 /* StoryboardLiterals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardLiterals.swift; sourceTree = "<group>"; };
+		EBF2D2CD2865ED6300468551 /* ImageLiterals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLiterals.swift; sourceTree = "<group>"; };
+		EBF2D2CF2865ED6300468551 /* Storyboarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		EBF2D2D02865ED6300468551 /* UICollectionViewRegisterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewRegisterable.swift; sourceTree = "<group>"; };
+		EBF2D2D12865ED6300468551 /* ViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		EBF2D2D22865ED6300468551 /* UITableViewRegisterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewRegisterable.swift; sourceTree = "<group>"; };
+		EBF2D2D62865ED6400468551 /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		EBF2D2D72865ED6400468551 /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		EBF2D2D82865ED6400468551 /* GeneralResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralResponse.swift; sourceTree = "<group>"; };
+		EBF2D2DB2865ED6400468551 /* ShowToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowToast.swift; sourceTree = "<group>"; };
+		EBF2D2DC2865ED6400468551 /* buttonPress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = buttonPress.swift; sourceTree = "<group>"; };
+		EBF2D2DD2865ED6400468551 /* applyShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = applyShadow.swift; sourceTree = "<group>"; };
+		EBF2D2DE2865ED6400468551 /* calculatePastTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calculatePastTime.swift; sourceTree = "<group>"; };
+		EBF2D2DF2865ED6400468551 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		EBF2D2E02865ED6400468551 /* setRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = setRootViewController.swift; sourceTree = "<group>"; };
+		EBF2D2E12865ED6400468551 /* manageObserverAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = manageObserverAction.swift; sourceTree = "<group>"; };
+		EBF2D2E22865ED6400468551 /* JsonCoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonCoder.swift; sourceTree = "<group>"; };
+		EBF2D2E32865ED6400468551 /* setDefaultFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = setDefaultFonts.swift; sourceTree = "<group>"; };
+		EBF2D2E42865ED6400468551 /* getClassName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getClassName.swift; sourceTree = "<group>"; };
+		EBF2D2E52865ED6400468551 /* setImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = setImage.swift; sourceTree = "<group>"; };
+		EBF2D2E62865ED6400468551 /* calculateTopInset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calculateTopInset.swift; sourceTree = "<group>"; };
+		EBF2D2E72865ED6400468551 /* makeVibrate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = makeVibrate.swift; sourceTree = "<group>"; };
+		EBF2D2E82865ED6400468551 /* makeAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = makeAlert.swift; sourceTree = "<group>"; };
+		EBF2D2E92865ED6400468551 /* Adjusted+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Adjusted+.swift"; sourceTree = "<group>"; };
+		EBF2D2ED2865ED6400468551 /* AuthRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
+		EBF2D2EF2865ED6400468551 /* EventLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventLogger.swift; sourceTree = "<group>"; };
+		EBF2D2F02865ED6400468551 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		EBF2D2F12865ED6400468551 /* BaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		EBF2D2F22865ED6400468551 /* NetworkResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		EBF2D2F32865ED6400468551 /* HeaderType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderType.swift; sourceTree = "<group>"; };
+		EBF2D2F52865ED6400468551 /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		EBF2D2F72865ED6400468551 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		EBF2D33A2865EDA800468551 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		EBF2D33C2865EDB500468551 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		EBF2D33F2865EDF700468551 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +157,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52169AACA3C7C69EDFBB2157 /* Pods_SocialLoginWithNaverMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15BF5BC00E01D18EE8086285 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6253DE6383AC8238239F4AF2 /* Pods-SocialLoginWithNaverMap.debug.xcconfig */,
+				40AEA894EA42973415B59C5F /* Pods-SocialLoginWithNaverMap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		42697EAD3F06A88B258A9F66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B21F85175667D340201CA254 /* Pods_SocialLoginWithNaverMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EBF2D27E2865E34F00468551 = {
 			isa = PBXGroup;
 			children = (
 				EBF2D2892865E35000468551 /* SocialLoginWithNaverMap */,
 				EBF2D2882865E35000468551 /* Products */,
+				15BF5BC00E01D18EE8086285 /* Pods */,
+				42697EAD3F06A88B258A9F66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +202,300 @@
 		EBF2D2892865E35000468551 /* SocialLoginWithNaverMap */ = {
 			isa = PBXGroup;
 			children = (
-				EBF2D28A2865E35000468551 /* AppDelegate.swift */,
-				EBF2D28C2865E35000468551 /* SceneDelegate.swift */,
-				EBF2D28E2865E35000468551 /* ViewController.swift */,
-				EBF2D2902865E35000468551 /* Main.storyboard */,
-				EBF2D2932865E35400468551 /* Assets.xcassets */,
-				EBF2D2952865E35400468551 /* LaunchScreen.storyboard */,
 				EBF2D2982865E35400468551 /* Info.plist */,
+				EBF2D29E2865ED6300468551 /* Application */,
+				EBF2D2EA2865ED6400468551 /* Data */,
+				EBF2D2D32865ED6300468551 /* Domain */,
+				EBF2D2B02865ED6300468551 /* Global */,
+				EBF2D2D92865ED6400468551 /* Presentation */,
+				EBF2D2DA2865ED6400468551 /* Utils */,
 			);
 			path = SocialLoginWithNaverMap;
+			sourceTree = "<group>";
+		};
+		EBF2D29E2865ED6300468551 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D29F2865ED6300468551 /* Coordinator */,
+				EBF2D2AE2865ED6300468551 /* AppDelegate.swift */,
+				EBF2D2AF2865ED6300468551 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EBF2D29F2865ED6300468551 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2A02865ED6300468551 /* Protocol */,
+				EBF2D2A52865ED6300468551 /* Factory */,
+				EBF2D2A92865ED6300468551 /* Base */,
+				EBF2D2AC2865ED6300468551 /* Router */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		EBF2D2A02865ED6300468551 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2A12865ED6300468551 /* CoordinatorFinishOutput.swift */,
+				EBF2D2A22865ED6300468551 /* Presentable.swift */,
+				EBF2D2A32865ED6300468551 /* BaseControllable.swift */,
+				EBF2D2A42865ED6300468551 /* Coordinator.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		EBF2D2A52865ED6300468551 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2A62865ED6300468551 /* ModuleFactory.swift */,
+				EBF2D2A72865ED6300468551 /* controllerFromStoryBoard.swift */,
+				EBF2D2A82865ED6300468551 /* CoordinatorFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		EBF2D2A92865ED6300468551 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2AA2865ED6300468551 /* LaunchInstructor.swift */,
+				EBF2D2AB2865ED6300468551 /* BaseCoordinator.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EBF2D2AC2865ED6300468551 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2AD2865ED6300468551 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		EBF2D2B02865ED6300468551 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2B12865ED6300468551 /* Extension */,
+				EBF2D2C52865ED6300468551 /* Resources */,
+				EBF2D2C72865ED6300468551 /* Supporting Files */,
+				EBF2D2CA2865ED6300468551 /* Literals */,
+				EBF2D2CE2865ED6300468551 /* Protocols */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		EBF2D2B12865ED6300468551 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2B22865ED6300468551 /* UserDefaults+.swift */,
+				EBF2D2B32865ED6300468551 /* UI */,
+				EBF2D2BF2865ED6300468551 /* Design */,
+				EBF2D2C22865ED6300468551 /* Reactive+.swift */,
+				EBF2D2C32865ED6300468551 /* String+.swift */,
+				EBF2D2C42865ED6300468551 /* Result+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EBF2D2B32865ED6300468551 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2B42865ED6300468551 /* UIDevice+.swift */,
+				EBF2D2B52865ED6300468551 /* UITextView+.swift */,
+				EBF2D2B62865ED6300468551 /* UITabBar+.swift */,
+				EBF2D2B72865ED6300468551 /* UIView+.swift */,
+				EBF2D2B82865ED6300468551 /* UIStackView+.swift */,
+				EBF2D2B92865ED6300468551 /* UIViewController+.swift */,
+				EBF2D2BA2865ED6300468551 /* UILabel+.swift */,
+				EBF2D2BB2865ED6300468551 /* UIButton+.swift */,
+				EBF2D2BC2865ED6300468551 /* UITextField+.swift */,
+				EBF2D2BD2865ED6300468551 /* UIImage+.swift */,
+				EBF2D2BE2865ED6300468551 /* UITableView+.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EBF2D2BF2865ED6300468551 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2C02865ED6300468551 /* UIFont+.swift */,
+				EBF2D2C12865ED6300468551 /* UIColor+.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		EBF2D2C52865ED6300468551 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2C62865ED6300468551 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EBF2D2C72865ED6300468551 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2C82865ED6300468551 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBF2D2CA2865ED6300468551 /* Literals */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2CB2865ED6300468551 /* BaseNotiList.swift */,
+				EBF2D2CC2865ED6300468551 /* StoryboardLiterals.swift */,
+				EBF2D2CD2865ED6300468551 /* ImageLiterals.swift */,
+			);
+			path = Literals;
+			sourceTree = "<group>";
+		};
+		EBF2D2CE2865ED6300468551 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2CF2865ED6300468551 /* Storyboarded.swift */,
+				EBF2D2D02865ED6300468551 /* UICollectionViewRegisterable.swift */,
+				EBF2D2D12865ED6300468551 /* ViewModelType.swift */,
+				EBF2D2D22865ED6300468551 /* UITableViewRegisterable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EBF2D2D32865ED6300468551 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2D42865ED6400468551 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		EBF2D2D42865ED6400468551 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2D52865ED6400468551 /* Auth */,
+				EBF2D2D82865ED6400468551 /* GeneralResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBF2D2D52865ED6400468551 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2D62865ED6400468551 /* SignUp.swift */,
+				EBF2D2D72865ED6400468551 /* SignIn.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		EBF2D2D92865ED6400468551 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D33E2865EDEE00468551 /* Common */,
+				EBF2D3392865ED7B00468551 /* MainMap */,
+				EBF2D3382865ED7100468551 /* Authentication */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		EBF2D2DA2865ED6400468551 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2DB2865ED6400468551 /* ShowToast.swift */,
+				EBF2D2DC2865ED6400468551 /* buttonPress.swift */,
+				EBF2D2DD2865ED6400468551 /* applyShadow.swift */,
+				EBF2D2DE2865ED6400468551 /* calculatePastTime.swift */,
+				EBF2D2DF2865ED6400468551 /* Logger.swift */,
+				EBF2D2E02865ED6400468551 /* setRootViewController.swift */,
+				EBF2D2E12865ED6400468551 /* manageObserverAction.swift */,
+				EBF2D2E22865ED6400468551 /* JsonCoder.swift */,
+				EBF2D2E32865ED6400468551 /* setDefaultFonts.swift */,
+				EBF2D2E42865ED6400468551 /* getClassName.swift */,
+				EBF2D2E52865ED6400468551 /* setImage.swift */,
+				EBF2D2E62865ED6400468551 /* calculateTopInset.swift */,
+				EBF2D2E72865ED6400468551 /* makeVibrate.swift */,
+				EBF2D2E82865ED6400468551 /* makeAlert.swift */,
+				EBF2D2E92865ED6400468551 /* Adjusted+.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EBF2D2EA2865ED6400468551 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2EB2865ED6400468551 /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EBF2D2EB2865ED6400468551 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2EC2865ED6400468551 /* Routers */,
+				EBF2D2EE2865ED6400468551 /* Foundation */,
+				EBF2D2F42865ED6400468551 /* Environment */,
+				EBF2D2F62865ED6400468551 /* Services */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EBF2D2EC2865ED6400468551 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2ED2865ED6400468551 /* AuthRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		EBF2D2EE2865ED6400468551 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2EF2865ED6400468551 /* EventLogger.swift */,
+				EBF2D2F02865ED6400468551 /* BaseService.swift */,
+				EBF2D2F12865ED6400468551 /* BaseRouter.swift */,
+				EBF2D2F22865ED6400468551 /* NetworkResult.swift */,
+				EBF2D2F32865ED6400468551 /* HeaderType.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		EBF2D2F42865ED6400468551 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2F52865ED6400468551 /* NetworkConstants.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		EBF2D2F62865ED6400468551 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D2F72865ED6400468551 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EBF2D3382865ED7100468551 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D33A2865EDA800468551 /* Login.storyboard */,
+				EBF2D33C2865EDB500468551 /* LoginVC.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		EBF2D3392865ED7B00468551 /* MainMap */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainMap;
+			sourceTree = "<group>";
+		};
+		EBF2D33E2865EDEE00468551 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2D33F2865EDF700468551 /* BaseVC.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +505,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBF2D29B2865E35400468551 /* Build configuration list for PBXNativeTarget "SocialLoginWithNaverMap" */;
 			buildPhases = (
+				89F1C6BA18A68CA5BF3721AE /* [CP] Check Pods Manifest.lock */,
 				EBF2D2832865E35000468551 /* Sources */,
 				EBF2D2842865E35000468551 /* Frameworks */,
 				EBF2D2852865E35000468551 /* Resources */,
+				229BFB127DBA7313AD400ED4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,40 +558,135 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF2D2972865E35400468551 /* LaunchScreen.storyboard in Resources */,
-				EBF2D2942865E35400468551 /* Assets.xcassets in Resources */,
-				EBF2D2922865E35000468551 /* Main.storyboard in Resources */,
+				EBF2D33B2865EDA800468551 /* Login.storyboard in Resources */,
+				EBF2D3152865ED6400468551 /* Assets.xcassets in Resources */,
+				EBF2D3162865ED6400468551 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		229BFB127DBA7313AD400ED4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialLoginWithNaverMap/Pods-SocialLoginWithNaverMap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialLoginWithNaverMap/Pods-SocialLoginWithNaverMap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocialLoginWithNaverMap/Pods-SocialLoginWithNaverMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89F1C6BA18A68CA5BF3721AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocialLoginWithNaverMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EBF2D2832865E35000468551 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF2D28F2865E35000468551 /* ViewController.swift in Sources */,
-				EBF2D28B2865E35000468551 /* AppDelegate.swift in Sources */,
-				EBF2D28D2865E35000468551 /* SceneDelegate.swift in Sources */,
+				EBF2D33D2865EDB500468551 /* LoginVC.swift in Sources */,
+				EBF2D3022865ED6400468551 /* AppDelegate.swift in Sources */,
+				EBF2D3372865ED6400468551 /* AuthService.swift in Sources */,
+				EBF2D30C2865ED6400468551 /* UIButton+.swift in Sources */,
+				EBF2D3352865ED6400468551 /* HeaderType.swift in Sources */,
+				EBF2D2FD2865ED6400468551 /* controllerFromStoryBoard.swift in Sources */,
+				EBF2D30B2865ED6400468551 /* UILabel+.swift in Sources */,
+				EBF2D3142865ED6400468551 /* Result+.swift in Sources */,
+				EBF2D3042865ED6400468551 /* UserDefaults+.swift in Sources */,
+				EBF2D30E2865ED6400468551 /* UIImage+.swift in Sources */,
+				EBF2D3342865ED6400468551 /* NetworkResult.swift in Sources */,
+				EBF2D32E2865ED6400468551 /* makeAlert.swift in Sources */,
+				EBF2D3002865ED6400468551 /* BaseCoordinator.swift in Sources */,
+				EBF2D3232865ED6400468551 /* applyShadow.swift in Sources */,
+				EBF2D3102865ED6400468551 /* UIFont+.swift in Sources */,
+				EBF2D31E2865ED6400468551 /* SignUp.swift in Sources */,
+				EBF2D3202865ED6400468551 /* GeneralResponse.swift in Sources */,
+				EBF2D32B2865ED6400468551 /* setImage.swift in Sources */,
+				EBF2D3312865ED6400468551 /* EventLogger.swift in Sources */,
+				EBF2D3012865ED6400468551 /* Router.swift in Sources */,
+				EBF2D32C2865ED6400468551 /* calculateTopInset.swift in Sources */,
+				EBF2D32A2865ED6400468551 /* getClassName.swift in Sources */,
+				EBF2D3182865ED6400468551 /* StoryboardLiterals.swift in Sources */,
+				EBF2D3332865ED6400468551 /* BaseRouter.swift in Sources */,
+				EBF2D3052865ED6400468551 /* UIDevice+.swift in Sources */,
+				EBF2D30F2865ED6400468551 /* UITableView+.swift in Sources */,
+				EBF2D3272865ED6400468551 /* manageObserverAction.swift in Sources */,
+				EBF2D3262865ED6400468551 /* setRootViewController.swift in Sources */,
+				EBF2D31C2865ED6400468551 /* ViewModelType.swift in Sources */,
+				EBF2D2FF2865ED6400468551 /* LaunchInstructor.swift in Sources */,
+				EBF2D3092865ED6400468551 /* UIStackView+.swift in Sources */,
+				EBF2D2FB2865ED6400468551 /* Coordinator.swift in Sources */,
+				EBF2D2FE2865ED6400468551 /* CoordinatorFactory.swift in Sources */,
+				EBF2D3192865ED6400468551 /* ImageLiterals.swift in Sources */,
+				EBF2D3222865ED6400468551 /* buttonPress.swift in Sources */,
+				EBF2D3252865ED6400468551 /* Logger.swift in Sources */,
+				EBF2D3082865ED6400468551 /* UIView+.swift in Sources */,
+				EBF2D3292865ED6400468551 /* setDefaultFonts.swift in Sources */,
+				EBF2D2F82865ED6400468551 /* CoordinatorFinishOutput.swift in Sources */,
+				EBF2D3062865ED6400468551 /* UITextView+.swift in Sources */,
+				EBF2D2FC2865ED6400468551 /* ModuleFactory.swift in Sources */,
+				EBF2D32F2865ED6400468551 /* Adjusted+.swift in Sources */,
+				EBF2D3282865ED6400468551 /* JsonCoder.swift in Sources */,
+				EBF2D2F92865ED6400468551 /* Presentable.swift in Sources */,
+				EBF2D2FA2865ED6400468551 /* BaseControllable.swift in Sources */,
+				EBF2D3032865ED6400468551 /* SceneDelegate.swift in Sources */,
+				EBF2D3242865ED6400468551 /* calculatePastTime.swift in Sources */,
+				EBF2D31D2865ED6400468551 /* UITableViewRegisterable.swift in Sources */,
+				EBF2D30A2865ED6400468551 /* UIViewController+.swift in Sources */,
+				EBF2D31F2865ED6400468551 /* SignIn.swift in Sources */,
+				EBF2D3122865ED6400468551 /* Reactive+.swift in Sources */,
+				EBF2D3362865ED6400468551 /* NetworkConstants.swift in Sources */,
+				EBF2D31B2865ED6400468551 /* UICollectionViewRegisterable.swift in Sources */,
+				EBF2D3112865ED6400468551 /* UIColor+.swift in Sources */,
+				EBF2D3172865ED6400468551 /* BaseNotiList.swift in Sources */,
+				EBF2D31A2865ED6400468551 /* Storyboarded.swift in Sources */,
+				EBF2D3322865ED6400468551 /* BaseService.swift in Sources */,
+				EBF2D32D2865ED6400468551 /* makeVibrate.swift in Sources */,
+				EBF2D3072865ED6400468551 /* UITabBar+.swift in Sources */,
+				EBF2D3402865EDF700468551 /* BaseVC.swift in Sources */,
+				EBF2D3132865ED6400468551 /* String+.swift in Sources */,
+				EBF2D3302865ED6400468551 /* AuthRouter.swift in Sources */,
+				EBF2D3212865ED6400468551 /* ShowToast.swift in Sources */,
+				EBF2D30D2865ED6400468551 /* UITextField+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EBF2D2902865E35000468551 /* Main.storyboard */ = {
+		EBF2D2C82865ED6300468551 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EBF2D2912865E35000468551 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EBF2D2952865E35400468551 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EBF2D2962865E35400468551 /* Base */,
+				EBF2D2C92865ED6300468551 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -282,6 +810,7 @@
 		};
 		EBF2D29C2865E35400468551 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6253DE6383AC8238239F4AF2 /* Pods-SocialLoginWithNaverMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +821,6 @@
 				INFOPLIST_FILE = SocialLoginWithNaverMap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +838,7 @@
 		};
 		EBF2D29D2865E35400468551 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40AEA894EA42973415B59C5F /* Pods-SocialLoginWithNaverMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +849,6 @@
 				INFOPLIST_FILE = SocialLoginWithNaverMap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

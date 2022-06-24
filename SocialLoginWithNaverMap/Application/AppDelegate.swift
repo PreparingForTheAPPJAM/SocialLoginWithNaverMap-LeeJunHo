@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SocialLoginWithNaverMap
+//  DaangnMarket-iOS
 //
-//  Created by Junho Lee on 2022/06/24.
+//  Created by Junho Lee on 2022/05/15.
 //
 
 import UIKit
