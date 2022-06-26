@@ -23,6 +23,7 @@ final class MainMapVC: BaseVC, Storyboarded {
     
     private lazy var naverMapView: NMFMapView = {
         let map = NMFMapView()
+        map.locationOverlay.hidden = false
         return map
     }()
     
@@ -31,6 +32,13 @@ final class MainMapVC: BaseVC, Storyboarded {
         mk.position = NMGLatLng(lat: 37.5670135, lng: 126.9783740)
         mk.mapView = naverMapView
         return mk
+    }()
+        
+    private lazy var currentLocationButton: NMFLocationButton = {
+        let currentLocationButton = NMFLocationButton()
+        currentLocationButton.mapView = naverMapView
+        currentLocationButton.isHidden = false
+        return currentLocationButton
     }()
     
     // MARK: - Life Cycles
@@ -72,6 +80,7 @@ final class MainMapVC: BaseVC, Storyboarded {
     
     private func makeMarkerAt(aimX: Double, aimY: Double) {
         tempMarker.position = NMGLatLng(lat: currentLatitude ?? 0, lng: currentLongitude ?? 0)
+        naverMapView.locationOverlay.location = NMGLatLng(lat: currentLatitude ?? 0, lng: currentLongitude ?? 0)
     }
     
     private func moveCameraToCurrentLoc() {
