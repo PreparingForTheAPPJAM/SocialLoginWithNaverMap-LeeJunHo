@@ -40,7 +40,7 @@ final class MainMapVC: BaseVC, Storyboarded {
         
         view.backgroundColor = .orange
         DispatchQueue.main.asyncAfter(deadline: .now()+3) {
-            self.currentCoordinate()
+            self.coordinateCurrentAndMakeMarker()
         }
     }
     
@@ -53,7 +53,7 @@ final class MainMapVC: BaseVC, Storyboarded {
     
     // MARK: - Custom Methods
     
-    private func currentCoordinate() {
+    private func coordinateCurrentAndMakeMarker() {
         let locationManager = self.locationManager
         locationManager.requestWhenInUseAuthorization()
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
@@ -63,10 +63,28 @@ final class MainMapVC: BaseVC, Storyboarded {
         self.currentLatitude = coordinates?.latitude
         self.currentLongitude = coordinates?.longitude
         
+        if let currentX = currentLatitude,
+           let currentY = currentLongitude {
+            makeMarkerAt(aimX: currentX, aimY: currentY)
+        }
+        moveCameraToCurrentLoc()
+    }
+    
+    private func makeMarkerAt(aimX: Double, aimY: Double) {
         tempMarker.position = NMGLatLng(lat: currentLatitude ?? 0, lng: currentLongitude ?? 0)
+    }
+    
+    private func moveCameraToCurrentLoc() {
+        if let currentX = currentLatitude,
+           let currentY = currentLongitude {
+            moveCameraTo(destinationX: currentX, destinationY: currentY)
+        }
+    }
+    
+    private func moveCameraTo(destinationX: Double, destinationY: Double) {
         naverMapView.moveCamera(
             NMFCameraUpdate(
-                position: NMFCameraPosition(NMGLatLng(lat: currentLatitude ?? 0, lng: currentLongitude ?? 0), zoom: 12.0)),
+                position: NMFCameraPosition(NMGLatLng(lat: destinationX, lng: destinationY), zoom: 12.0)),
             completion: nil)
     }
     
